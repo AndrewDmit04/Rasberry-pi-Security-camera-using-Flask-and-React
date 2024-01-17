@@ -11,7 +11,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'     //import react
 import Home from './pages/Home'                                   //import home page-landing page
 import Recordings from './pages/Recordings'                       //import Recordings page where you can see recorded videos
 import FaceImages from './pages/FaceImages'                       //import faceImages where you can see all captured faces
-const backEndserverIp = "http://192.168.0.157:5000"               //ip of the backend flask application
+const backEndserverIp = "YOUR-IP:YOUR-PORT"                       //ip of the backend flask application
 function App() {
   return(
     <BrowserRouter>                                               
