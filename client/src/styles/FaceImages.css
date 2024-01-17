@@ -1,0 +1,31 @@
+/* faces grid */
+.pic-flex{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px;
+    flex-wrap:wrap;
+    color: white;
+    font-weight: 0;
+    font-size: 13px;
+    margin-left: 30px;
+}
+/* each face */
+.pic{
+    background-color: black;
+    padding:10px 10px;
+    margin: 10px 10px;
+    width: 240px;
+    height: 280px;
+}
+.thumbnail{
+    width: 100%;
+}
+/* styling for error message */
+.error{
+    color: red;
+    display: flex;
+    width: 100%;
+    height: 85vh;
+    align-items: center;
+    justify-content: center;
+}
